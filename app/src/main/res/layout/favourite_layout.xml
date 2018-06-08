@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:text="Movies"
+        android:textSize="29dp"
+        android:id="@+id/texti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:id="@+id/fabmovierecycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="29dp"
+        android:id="@+id/trailertext"
+        android:text="Tv shows"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:overScrollMode="never"
+        android:id="@+id/fabtvrecycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
+    </ScrollView>

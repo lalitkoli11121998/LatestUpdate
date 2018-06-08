@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/firstlayout"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/firstimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/firsttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="30dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"/>
+</android.support.constraint.ConstraintLayout>
