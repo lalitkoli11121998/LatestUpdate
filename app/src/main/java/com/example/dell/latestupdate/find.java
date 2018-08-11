@@ -73,7 +73,6 @@ public class find extends AppCompatActivity {
         recyclerView7 = findViewById(R.id.recyclerView7);
         imageView = findViewById(R.id.toolbarimage);
         textView = findViewById(R.id.textid);
-        expandableTextView = (ExpandableTextView)findViewById(R.id.expandableTextView);
         textView2 = findViewById(R.id.trailertext);
         textView3 = findViewById(R.id.similartext);
         recyclerView8 = findViewById(R.id.recyclerView8);

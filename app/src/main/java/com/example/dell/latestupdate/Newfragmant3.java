@@ -99,7 +99,7 @@ public class Newfragmant3 extends android.support.v4.app.Fragment {
                                 movie.setAdapter(Fabmovieadapter);
                                 Fabmovieadapter.notifyDataSetChanged();
                                 setmoviefavourite();
-                               // movie.setLayoutManager(new GridLayoutManager(getContext(), 2,GridLayoutManager.VERTICAL,false));
+
 
                             }
                         })

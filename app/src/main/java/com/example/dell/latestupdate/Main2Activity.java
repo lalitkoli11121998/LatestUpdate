@@ -262,7 +262,7 @@ public class Main2Activity extends AppCompatActivity implements NavigationView.O
 
             @Override
             public void onError(FacebookException exception) {
-                // App code
+                // App code]
 
                 Toast.makeText(Main2Activity.this, "Error comes out", Toast.LENGTH_LONG).show();
             }
